@@ -7,6 +7,7 @@
 	background-color:# #e6f0ff; 
 }
 
+
 li, a{
 	font-family: "Montserrat", san-serif;
 	font-weight: 500;
@@ -15,18 +16,27 @@ li, a{
 	text-decoration: none;
 }
 
-header{
+.header{
 	display: flex;
 	justify-content: flex-end;
+
 	align-items: center;
 	padding: 30px 10%;
-	background-color: gray;
+	background-image: url(https://gttp.imgix.net/197063/x/0/pagudpud-ilocos-sightseeing-day-tour-with-hotel-pickup-dropoff-2.jpg);
+	list-style-position: fixed;
 }
+
+.landing{
+	height: 100vh;
+	
+	}
 
 .logo{
 	color: green;
 	cursor: pointer;
 	margin-right: auto;
+	font-size: 24px;
+	
 }
 
 .logo:hover{
@@ -35,6 +45,7 @@ header{
 
 .nav_links{
 	list-style: none;
+	
 }
 
 .nav_links li{
