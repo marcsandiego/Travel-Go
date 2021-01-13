@@ -8,14 +8,6 @@
 	overflow-x: hidden;
 }
 
-body {
-	Background-image: url("img/travel_bg.png");
-	background-repeat: no-repeat;
-	min-height: 950px;
-	background-size: cover;
-	background-position: center;
-}
-
 .container{
 	width: 80%;
 	margin: auto;
@@ -94,11 +86,16 @@ button:hover{
 	opacity: 0.8;
 }
 
-#showcase .container{
+#showcase {
 	display: flex;
+	Background-image: url("img/travel_bg.png");
+	background-repeat: no-repeat;
+	min-height: 950px;
+	background-size: cover;
+	background-position: center;
 	color: #fff;
 	font-family: "Montserrat", san-serif;
-	font-size: 46px;
-	padding-top: 500px;
+	font-size: 52px;
+	padding-top: 200px;
 }
 
