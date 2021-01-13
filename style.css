@@ -5,6 +5,22 @@
 	margin: 0;
 	padding: 0;	
 	background-color:# #e6f0ff; 
+	overflow-x: hidden;
+}
+
+body {
+	Background-image: url("img/travel_bg.png");
+	background-repeat: no-repeat;
+	min-height: 950px;
+	background-size: cover;
+	background-position: center;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	display: flex;
 }
 
 
@@ -16,32 +32,31 @@ li, a{
 	text-decoration: none;
 }
 
-.header{
+header{
 	display: flex;
-	justify-content: flex-end;
-
-	align-items: center;
-	padding: 30px 10%;
-	background-image: url(https://gttp.imgix.net/197063/x/0/pagudpud-ilocos-sightseeing-day-tour-with-hotel-pickup-dropoff-2.jpg);
-	list-style-position: fixed;
+	background-color: rgb(0,0,0,.2);
+	width: 100%;
+	z-index: 10;
+	position: fixed;
 }
 
-.landing{
-	height: 100vh;
-	
-	}
+header .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
 
-.logo{
-	color: green;
+}
+
+
+#brand{
+	color:#fff;
 	cursor: pointer;
 	margin-right: auto;
 	font-size: 24px;
 	
 }
 
-.logo:hover{
-	font-weight: bolder;
-}
 
 .nav_links{
 	list-style: none;
@@ -58,7 +73,7 @@ li, a{
 }
 
 .nav_links li a:hover{
-	color:pink;
+	color:#ffa366;
 	transition: all 0.3s ease 0s;
 	font-weight: bold;
 
@@ -67,7 +82,7 @@ li, a{
 button{
 	padding: 9px 25px;
 	border: none;
-	background-color: pink;
+	background-color: #ffa366;
 	opacity: 1;
 	border-radius: 50px;
 	cursor: pointer;
@@ -75,7 +90,15 @@ button{
 }
 
 button:hover{
-	background-color: pink;
+	background-color: #ffc299;
 	opacity: 0.8;
+}
+
+#showcase .container{
+	display: flex;
+	color: #fff;
+	font-family: "Montserrat", san-serif;
+	font-size: 46px;
+	padding-top: 500px;
 }
 
