@@ -59,6 +59,7 @@ header .container{
 .nav_links li{
 	display: inline-block;
 	padding: 0 20px;
+
 }
 
 .nav_links li a{
@@ -100,6 +101,10 @@ button:hover{
 	padding-top: 180px;
 }
 
+#showcase .orange{
+	color: #ff8533;
+}
+
 #services{
 	background-color: #f4f4f4;
 }
@@ -123,6 +128,7 @@ button:hover{
 	position: flex;
 	justify-content: space-around;
 	padding: 0px 60px 30px 60px;
+	overflow-y: hidden;
 
 
 }
@@ -141,6 +147,7 @@ button:hover{
 
 #menu, #more{
 	background-color: #f4f4f4;
+	overflow-y: hidden;
 }
 
 #more .container{
