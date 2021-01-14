@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yusei+Magic&display=swap');
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -161,6 +162,7 @@ button:hover{
 
 #more button{
 	font-size: 20px;
+	font-family: "Montserrat", san-serif;
 	}
 
 #services{
@@ -171,15 +173,35 @@ button:hover{
 }
 
 #services h1{
-	padding: 85px 10px 40px ;
+	padding: 95px 10px 10px 0px;
 	font-size: 46px;
 	font-family: Lobster;
 	color: #fff;
 }
 
 #services .container{
-	padding-left: 200px;
+	position: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 500px;
+	font-family: "Montserrat", san-serif;
+	color: orange;
 }
+
+#services .display{
+	margin:auto;
+	padding: 40px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 80%;
+}
+
+.display img{
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px 0px #000;
+}
+
 
 #how{
 	background-color: #ff8533;
