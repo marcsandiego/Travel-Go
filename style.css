@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -31,6 +31,7 @@ header{
 	width: 100%;
 	z-index: 10;
 	position: fixed;
+	font-family: 'Abril Fatface', cursive;
 }
 
 header .container{
@@ -63,6 +64,10 @@ header #brand{
 
 .nav_links li a{
 	transition: all 0.3s ease 0s;
+}
+
+.nav_links li s{
+	order: -1;
 }
 
 .nav_links li a:hover{
@@ -104,20 +109,20 @@ button:hover{
 	color: #ff8533;
 }
 
-#services{
+#rates{
 	background-color: #f4f4f4;
 }
 
-#services .container {
+#rates .container {
 	position: flex;
 	font-style: italic;
-	font-size: 32px;
+	font-size: 34px;
 	font-family: Lobster;
 	justify-content: center;
 	
 }
 
-#services h1{
+#rates h1{
 	padding: 85px 10px 40px ;
 	color: #ff8533;
 }
@@ -158,6 +163,21 @@ button:hover{
 	font-size: 20px;
 	}
 
-#rates h1{
-	font-size: 214px;
+#services{
+	Background-image: url("img/services.jpg");
+	min-height: 950px;
+	background-size: cover;
+	background-position: center;
 }
+
+#services h1{
+	padding: 85px 10px 40px ;
+	font-size: 46px;
+	font-family: Lobster;
+	color: #fff;
+}
+
+#services .container{
+	padding-left: 200px;
+}
+
