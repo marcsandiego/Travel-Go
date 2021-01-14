@@ -38,11 +38,10 @@ header .container{
 	justify-content: space-between;
 	align-items: center;
 	padding: 15px;
-
 }
 
 
-#brand{
+header #brand{
 	color:#fff;
 	cursor: pointer;
 	margin-right: auto;
