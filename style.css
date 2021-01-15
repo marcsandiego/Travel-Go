@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yusei+Magic&display=swap');
+
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -185,7 +186,7 @@ button:hover{
 	flex-direction: column;
 	margin-left: 500px;
 	font-family: "Montserrat", san-serif;
-	color: orange;
+	color: #fff;
 }
 
 #services .display{
@@ -195,6 +196,7 @@ button:hover{
 	flex-direction: row;
 	justify-content: space-between;
 	width: 80%;
+	overflow: hidden;
 }
 
 .display img{
@@ -202,10 +204,50 @@ button:hover{
 	box-shadow: 0px 0px 3px 0px #000;
 }
 
-
-#how{
-	background-color: #ff8533;
+#about{
+	background-color: #fff;
 	font-size: 20px;
-	color: #fff;
 }
 
+#about .container {
+	position: flex;
+	flex-direction: row;
+	font-size: 64px;
+	justify-content: center;
+}
+
+#about h1{
+	padding: 85px 10px 40px ;
+}
+
+#about img{
+	margin-top: 80px;
+	margin-left: -40px;
+}
+
+#about1 .container{
+	width: 70%;
+	overflow-y: hidden;
+	position: flex;
+	justify-content: space-around;
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 50px;
+}
+
+#about1 .container p{
+	position: flex;
+	align-self: center;
+}
+
+@-webkit-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+
+#about1 .container img:hover{
+	position: flex;
+	align-self: center;
+	-webkit-animation: spin 1s linear ;
+	-moz-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
