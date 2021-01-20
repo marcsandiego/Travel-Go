@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yusei+Magic&display=swap');
 
+html, body{
+	scroll-behavior: smooth;
+}
+
 *{
 	box-sizing: border-box;
 	margin: 0;
